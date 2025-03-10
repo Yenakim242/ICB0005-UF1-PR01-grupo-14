@@ -70,8 +70,8 @@ Python se usa ampliamente en:
 - **IDEs** : Programas donde puedes escribir y ejecutar código (VS Code, PyCharm...).
 - **Frameworks** : Conjunto de herramientas que facilitan la programación (Django para desarrollo web, TensorFlow para IA...).
 
- 
+
 (Ejemplo de tipado dinámico)
 ```python
-x = 10 # Esto es un entero
-x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
+x=10 #Esto es un entero  
+x="Hola" # Ahora es una cadena: Python permite este cambio dinámico  
