@@ -25,5 +25,20 @@ Python se usa ampliamente en:
 ---
 
 ## Tipado, paradigma y Ejecuciónn
-
+- **Tipado:**
+    - Tipado **dinámico** : No necesitas definir el tipo de una variable antes de usarla.
+    - Tipado **fuerte** : No puedes mezclar tipos incompatibles directamente (por ejemplo, sumar una cadena con un número).
+    
+- **Paradigma:**
+    - **Orientado a objetos (OOP)**
+    - **Funcional** (permite usar funciones de orden superior)
+    - **Procedimental** (permite estructurar código en funciones)
+  
+- **Ejecución:**
+    - **Interpretado** : No necesitas compilar el código de ejecutarlo.
+ 
+(Ejemplo de tipado dinámico)
+```python
+x = 10 # Esto es un entero
+x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
 
