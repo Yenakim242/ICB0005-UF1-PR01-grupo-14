@@ -22,7 +22,7 @@ Python se usa ampliamente en:
 - YouTube y Dropbbox están escritos parcialmente en Python
 - Instagram usa Django (que está basado en Python)
 
----
+
 
 ## Tipado, paradigma y Ejecuciónn
 - **Tipado:**
