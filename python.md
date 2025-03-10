@@ -18,7 +18,7 @@ Python se usa ampliamente en:
 - **Automatización** : Scripts de automatización de tareas
 - **Desarrollo de videojuegos** : Pygame
 
-● Ejemplo:
+(Ejemplo)
 - YouTube y Dropbbox están escritos parcialmente en Python
 - Instagram usa Django (que está basado en Python)
 
