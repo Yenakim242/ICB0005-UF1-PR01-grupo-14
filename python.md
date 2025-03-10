@@ -11,6 +11,18 @@ Python fue creado por **Guido van Rossum** y su primera versión se lanzó en **
 ---
 
 ## Campo de aplicación
+Python se usa ampliamente en:
+- **Desarrollo web** : Frameworks como Django y Flask
+- **Análisis de datos** : Librerías como Pandas y NumPy
+- **Inteligencia artificial y Machine Learning** : TensorFlow y Scikit-learn
+- **Automatización** : Scripts de automatización de tareas
+- **Desarrollo de videojuegos** : Pygame
+
+● Ejemplo:
+- YouTube y Dropbbox están escritos parcialmente en Python
+- Instagram usa Django (que está basado en Python)
+
+---
 
 ## Tipado, paradigma y Ejecuciónn
 
