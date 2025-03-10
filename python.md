@@ -38,9 +38,10 @@ Python se usa ampliamente en:
     - **Interpretado** : No necesitas compilar el código de ejecutarlo.
 
 (Ejemplo de tipado dinámico)
-```python```
-x = 10 #Esto es un entero
-x = "Hola" #Ahora es una cadena: Python permite este cambio dinámico
+```python
+x = 10 # Esto es un entero
+x = "Hola" # Ahora es una cadena: Python permite este cambio dinámico
+```
 
 ---
 
