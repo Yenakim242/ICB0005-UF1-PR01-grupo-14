@@ -40,12 +40,14 @@ Python se usa ampliamente en:
 (Ejemplo de tipado dinámico)
 ```python
 x = 10 # Esto es un entero
-x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
+x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico```
 
 ## Curiosidad sobre Python
 - **Python en IA** : Python es el lenguaje más utilizado en inteligencia artificial gracias a su facilidad para manejar datos y el ecosistema de librerías especializadas como **TensorFlow**, **PyTorch** y **Scikit-earn**. Grandes modelos de lenguaje como **ChatGPT** y **DeepSeek** están desarrollados principalmente en Python debido a su eficiencia para entrenar y manejar redes neuronales complejas.
 - **Análisis de datos vs Data Science** : Python se ha convertido en el estándar para análisis de datos y ciencia de datos. En análisis de datos, se usan librerías como **Pandas** y **NumPy** para manipular y visualizar datos. En ciencia de datos, librerías como **TrensorFlow** y **Scikit-learn** permiten construir modelos predictivos y de machine learning. La diferencia principal es que el análisis de datos busca entender paratones existentes, mientras que la ciencia de datos busca crear nuevos modelos predictivos.
 - **Python vs Java** : Python domina en el campo de la inteligencia artificial y el análisis de datos debido a su rapidez para prototipar y su ecosistema de librerías. Sin embargo, Java sigue siendo el rey en aplicaciones empresariales, sistema de alto rendimiento y desarrollo móvil (Android). Un desarrollador de Python suele centrarse en IA y ciencia de datos, mientras que un desarrollador de Java se especializa en aplicaciones empresariales y sistemas escalables.
+
+---
 
 ## IDEs y Frameworks
 - **IDEs:**
@@ -60,6 +62,7 @@ x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
     - Django : Licencia **BSD**
     - TensorFlow : Licencia **Apache 2.0**
 
+---
 
 ### **Explicación de los términos**
 - **Campo de aplicación** : ¿Para qué se usa principalmente el lenguaje? (Desarrollo web, IA, videojuegos, etc.)
