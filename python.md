@@ -36,12 +36,6 @@ Python se usa ampliamente en:
   
 - **Ejecución:**
     - **Interpretado** : No necesitas compilar el código de ejecutarlo.
- 
-(Ejemplo de tipado dinámico)
-```python
-x = 10 # Esto es un entero
-x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
-
 
 ## Curiosidad sobre Python
 - **Python en IA** : Python es el lenguaje más utilizado en inteligencia artificial gracias a su facilidad para manejar datos y el ecosistema de librerías especializadas como **TensorFlow**, **PyTorch** y **Scikit-earn**. Grandes modelos de lenguaje como **ChatGPT** y **DeepSeek** están desarrollados principalmente en Python debido a su eficiencia para entrenar y manejar redes neuronales complejas.
@@ -75,3 +69,9 @@ x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
 - **Ejecución** : Si el código necesita compilarse (como en Java) o si se ejecuta directamente (como en Python).
 - **IDEs** : Programas donde puedes escribir y ejecutar código (VS Code, PyCharm...).
 - **Frameworks** : Conjunto de herramientas que facilitan la programación (Django para desarrollo web, TensorFlow para IA...).
+
+ 
+(Ejemplo de tipado dinámico)
+```python
+x = 10 # Esto es un entero
+x = "Hola" # Ahora es una cadena : Python permite este cambio dinámico
