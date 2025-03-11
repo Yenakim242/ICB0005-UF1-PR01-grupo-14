@@ -77,3 +77,9 @@ Documentación oficial de JavaScript
 - Si necesitas meter más info, añade ejemplos reales (por ejemplo, "React fue usado en la web de Instagram").
 - Si quieres hacerlo más visual, mete un par de imágenes o capturas de código.
 - Si te quedas sin espacio, puedes simplificar algunas partes (como los frameworks).
+
+### **Explicación de los términos:**
+- Licencia
+Una licencia define los derechos y restricciones que tienen los usuarios sobre un software o código. En el contexto de programación, las licencias indican si el código es:
+ - Open Source : El código es público y cualquiera puede modificarlo y redistribuirlo (como la licencia MIT).
+ - Comercial : Solo puedes usarlo si compras una licencia o pagas una sus
