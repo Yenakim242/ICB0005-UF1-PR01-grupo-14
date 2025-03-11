@@ -79,6 +79,22 @@ Documentación oficial de JavaScript
 - Si te quedas sin espacio, puedes simplificar algunas partes (como los frameworks).
 
 ### **Explicación de los términos:**
-- Licencia : Una licencia define los derechos y restricciones que tienen los usuarios sobre un software o código. En el contexto de programación, las licencias indican si el código es:
-  - Open Source : El código es público y cualquiera puede modificarlo y redistribuirlo (como la licencia MIT).
-  - Comercial : Solo puedes usarlo si compras una licencia o pagas una sus
+- **Licencia** : Una **licencia** define los derechos y restricciones que tienen los usuarios sobre un software o código. En el contexto de programación, las licencias indican si el código es:
+  - **Open Source** : El código es público y cualquiera puede modificarlo y redistribuirlo (como la licencia MIT).
+  - **Comercial** : Solo puedes usarlo si compras una licencia o pagas una suscripción.
+  - **Restrictiva** : Solo puedes usarlo con limitaciones (por ejemplo, sin modificaciones o solo para uso personal).
+(Ejemplo)
+ - React.js : Licencia **MIT** (libre para modificar y redistribuir).
+ - Windows : Licencia **comercial** (necesitas pargar para usarlo).
+ - Django : Licencia **BSD** (open source, pero con algunas limitaciones sobre redistribución).
+
+- **Tipado** : El **tipado** se refiere a cómo un lenguaje maneja los **tipos de datos** (como números, cadenas de texto, booleanos, etc.).
+  - **Tipado estático** : El tipo de una variable se define antes de ejecutarla y no puede cambiar.
+  - **Tipado dinámico** : El tipo de una variable puede cambiar en tiempo de ejecución.
+  - **Tipado fuerte** : No permite mezclar tipos incompatibles (por ejemplo, sumar un número con una cadena).
+  - **Tipado débil** : Permite hacer conversiones automáticas (como 1 + "2" → "12").
+(Ejemplo)
+- **Java** : Tipado **estático** y **fuerte**
+- **Python** : Tipado **dinámico** y **fuerte**
+- **JavaScript** : Tipado **dinámico** y **dèbil**
+
