@@ -83,6 +83,7 @@ Documentación oficial de JavaScript
   - **Open Source** : El código es público y cualquiera puede modificarlo y redistribuirlo (como la licencia MIT).
   - **Comercial** : Solo puedes usarlo si compras una licencia o pagas una suscripción.
   - **Restrictiva** : Solo puedes usarlo con limitaciones (por ejemplo, sin modificaciones o solo para uso personal).
+
 (Ejemplo)
  - React.js : Licencia **MIT** (libre para modificar y redistribuir).
  - Windows : Licencia **comercial** (necesitas pargar para usarlo).
@@ -93,6 +94,7 @@ Documentación oficial de JavaScript
   - **Tipado dinámico** : El tipo de una variable puede cambiar en tiempo de ejecución.
   - **Tipado fuerte** : No permite mezclar tipos incompatibles (por ejemplo, sumar un número con una cadena).
   - **Tipado débil** : Permite hacer conversiones automáticas (como 1 + "2" → "12").
+
 (Ejemplo)
 - **Java** : Tipado **estático** y **fuerte**
 - **Python** : Tipado **dinámico** y **fuerte**
