@@ -83,7 +83,7 @@ Documentación oficial de JavaScript
   - **Open Source** : El código es público y cualquiera puede modificarlo y redistribuirlo (como la licencia MIT).
   - **Comercial** : Solo puedes usarlo si compras una licencia o pagas una suscripción.
   - **Restrictiva** : Solo puedes usarlo con limitaciones (por ejemplo, sin modificaciones o solo para uso personal).
-  - Ejemplo
+  - Ejemplo:
      - React.js : Licencia **MIT** (libre para modificar y redistribuir).
      - Windows : Licencia **comercial** (necesitas pargar para usarlo).
      - Django : Licencia **BSD** (open source, pero con algunas limitaciones sobre redistribución).
@@ -98,3 +98,20 @@ Documentación oficial de JavaScript
      - **Python** : Tipado **dinámico** y **fuerte**
      - **JavaScript** : Tipado **dinámico** y **dèbil**
 
+- **Paradigma** : El **paradigma** define el **estilo de programación** o la forma en que se estructura y ejecuta el código. Los principales paradigmas son:
+  - **Programación orientada a objetos (OOP)** : Usa clases y objetos para estructurar el código.
+  - **Programación funcional** : Usa funciones puras y evita estados globales (ejemplo: map(), reduce() en JS).
+  - **Programación procedimental** : El código se estructura en funciones que se ejecutan en orden secuencial.
+  - Ejemplo:
+     - Java : Principalmente **OOP**
+     - Python : **Multiparadigm** (OOP, funcional y procedimental)
+     - JavaScript : **Multiparadigma** (OOP basado en prototipos y funcional)
+   
+- **Ejecución** : La **ejecución** define cómo se interpreta y ejecuta el código en el sistema:
+   - **Compilado** : El código se traduce a lenguaje máquina antes de ejecutarse (Java, C++).
+   - **Interpretado** : El código se ejecuta directamente línea por línea (Python, JavaScript).
+   - **Hibrido** : Mezcla de compilación e interpretación (Java usa una máquina virtual).
+   - Ejemplo:
+      - Java : Compilado en bytecode y ejecutado en la JVM (híbrido).
+      - Python : Interpretado línea por línea.
+      - JavaScript : Interpretado (pero los motores modernos usan **JIT (Just-In-Time)** para optimizar).
