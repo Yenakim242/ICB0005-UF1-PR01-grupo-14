@@ -84,9 +84,9 @@ Documentación oficial de JavaScript
   - **Comercial** : Solo puedes usarlo si compras una licencia o pagas una suscripción.
   - **Restrictiva** : Solo puedes usarlo con limitaciones (por ejemplo, sin modificaciones o solo para uso personal).
   - Ejemplo
-   - React.js : Licencia **MIT** (libre para modificar y redistribuir).
-   - Windows : Licencia **comercial** (necesitas pargar para usarlo).
-   - Django : Licencia **BSD** (open source, pero con algunas limitaciones sobre redistribución).
+     - React.js : Licencia **MIT** (libre para modificar y redistribuir).
+     - Windows : Licencia **comercial** (necesitas pargar para usarlo).
+     - Django : Licencia **BSD** (open source, pero con algunas limitaciones sobre redistribución).
 
 - **Tipado** : El **tipado** se refiere a cómo un lenguaje maneja los **tipos de datos** (como números, cadenas de texto, booleanos, etc.).
   - **Tipado estático** : El tipo de una variable se define antes de ejecutarla y no puede cambiar.
