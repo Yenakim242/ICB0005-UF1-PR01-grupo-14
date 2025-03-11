@@ -48,7 +48,42 @@ x = "Hola"; // Ahora es una cadena
 ---
 
 ## Curiosidades
+- **JS vs TypeScript: ¿Cuál es más potente?**
+   - **JavaScript** : Lenguaje dinámico, interpretado y débil. SU flexibilidad lo hace fácil de usar, pero también propenso a errores difíciles de detectar.
+   - **TypeScript** : Es un **superset de JavaScript** (o sea, añade funcionalidades a JS) creado por Microsoft en **2012**.
+      - Usa**tipado estático** : Detecta errores en tiempo de compilación.
+      - Mejora la estructura y mentenibilidad del código.
+      - TypeScript se compila a JavaScript, por lo que el navegador solo ejecuta JS.
+   - **Cuál es mejor?**
+      - JS : Ideal para proyectos rápidos y flexibles.
+      - TS : Mejor para proyectos complejos, escalables y con equipos grandes (por la detección de errores).
+         - **React** y **Angular** soportan TypeScript : Por eso TypeScript está cada vez más de moda en el desarrollo frontend.
+       
+- **JavaScript en el mundo lanoral: ¿Qué está de moda?**
+   - **React.js** : Framework frontend creado por **Meta (Facebook)** → DOminante en el desarrollo de interfaces interactivas.
+   - **Vue.js** : Framework frogresivo creado por **Evan You** → Muy popular por su sencillez y flexibilidad.
+   - **Angular** : Creado por **Google** → Más complejo que React, pero potente para aplicaciones grandes.
+   - **Node.js** : Permite usar JS en el backend → Rápido y escalable gracias al motor **V8**.
+   - **Express.js** : Framework para backend en Node.js → Facilita el manejo de rutas y API.
+   - **Next.js** : Basado en React → Ideal para apps renderizadas en el servidor (SSR).
+   - **Nest.js** : Framework backend basado en TypeScript → Estructura sólida para microservicios.
+   - **¿Qué usan las empresas?**
+      - Meta : React
+      - Netflix : Node.js
+      - Google : Angular
+      - GitHub : Usan TypeScript y Next.js
 
+- **¿Por qué tiene fama de ser dificil de aprender?**
+   - **Tipado dinámico y débil** : Puede causar errores ocultos (como 1 + "2" = "12").
+   - **Prototipos** : El modelo de herencia basado en prototipos es diferente al de otros lenguajes como Java o C++.
+   - **Contexto de ejecución (this)** : El valor de this cambia según el contexto, lo que confunde incluso a desarrolladores avanzados.
+   - **Callbacks y Promises** : La asincronía de JS (con setTimeout, async/await) puede ser diícil de entender al principio.
+   - **Hoisting** : JS permite usar variables antes de declararlas (porque las declara automáticamente al inicio de la ejecución).
+   - Ejemplo clásico de confusión:
+     ```javascript
+     console.log(x); // undefined
+     var x = 10;
+     ```
 
 ---
 
