@@ -93,9 +93,8 @@ Documentación oficial de JavaScript
   - **Tipado dinámico** : El tipo de una variable puede cambiar en tiempo de ejecución.
   - **Tipado fuerte** : No permite mezclar tipos incompatibles (por ejemplo, sumar un número con una cadena).
   - **Tipado débil** : Permite hacer conversiones automáticas (como 1 + "2" → "12").
-
-(Ejemplo)
-- **Java** : Tipado **estático** y **fuerte**
-- **Python** : Tipado **dinámico** y **fuerte**
-- **JavaScript** : Tipado **dinámico** y **dèbil**
+  - Ejemplo:
+     - **Java** : Tipado **estático** y **fuerte**
+     - **Python** : Tipado **dinámico** y **fuerte**
+     - **JavaScript** : Tipado **dinámico** y **dèbil**
 
