@@ -51,6 +51,83 @@ Autor: Yena Kim Choi
 ---
 
 ## Tipado, paradigma y Ejecución
+- **Tipado de las variables en Java**
+Java es un lenguaje:
+  - **Tipado estático** : El tipo de variables se define en tiempo de compilación y **NO** puede cambiar durante la ejecución.
+  - **Tipado fuerte** : No permite mezclar tipos incompatibles directamente (si intenteas sumar un número con una cadena, dará error).
+  - Ejemplo de tipado en Java:
+    ```java
+    int numero = 5; // Esto es válido
+    numero = "Hola"; // Error: No puedes cambiar un int por un String
+    ```
+    - **Lo bueno** del tipado fuerte es que evita errores en tiempo de ejecución.
+    - **Lo malo** es que teines que ser muy preciso al declarar las variables (lo que puede ser más tedioso).
+   
+- **Paradigmas en Java** : Java es un lenguaje **multiparadigama** porque permite varios estiolos de programación:
+1. **Programación Orientada a Objetos (OOP)** : Es el **paradigma principal** de Java:
+  - Basado en **clases** y **objetos**.
+  - Usa conceptos como **herencia**, **polimorfismo** y **encapsulamiento**.
+  - Ideal para proyectos grandes y escalables.
+  - Ejemplo:
+    ```java
+    class Aniaml {
+      void hacerSonido() {
+        System.out.println("Sonido de animal");
+      }
+    }
+
+    class Perro extends Animal {
+      void hacerSonido() {
+        System.out.println("Guau Guau");
+      }
+    }
+    ```
+2. **Programación Funcional** : Desde Java 8, se agregaron funciones de orden superior (como map(), filter()) y expresiones lambda, lo que permite usar el estilo funcional:
+   - Funciones son tratadas como objetos.
+   - Evita estado globales y efectos secundarios.
+   - Uso de métodos como map(), reduce() y filter().
+   - Ejemplo:
+     ```java
+     import java.util.Arrays;
+
+     public class Main {
+        public static void main(String[] args) {
+            Arrays.asList(1, 2, 3, 4)
+               .stream()
+               .map(x -> x * 2)
+               .forEach(System.out::println); // Imprime 2, 4, 6, 8
+       }
+     }
+     ```
+3. **Programación Procedimental** : Permite crear funciones o métodos sin necesidad de usar clases u objetos complejos:
+   - Código estructurado en funciones (como en C).
+   - Se puede usar para tareas simples y scripts.
+   - Ejemplo:
+     ```java
+     public class Main {
+        public static void main(String[] args) {
+          int resultado = suma(5, 7);
+          system.out.println(resultado);
+       }
+
+     static int suma (int a, int b) {
+          return a + b;
+       }
+     }
+     ```
+  
+- **Ejecución** : Java utiliza un sistema de ejecución **híbrido**:
+1. **Compilado** : El código Java(.java) se compila primero a **bytecode**(.class) mediante el compilador javac.
+2. **Interpretado** : El bytecode se ejecuta mediante la **Java Virtual Machine(JVM)**, que interpreta y optimiza el código en tiempo de ejecución.
+3. **Just-In-Time(JIT)** : La JVM convierte el bytecode a código máquina durante la ejecución para mejorar el rendimiento.
+4. Ejemplos de proceso:
+   1. Código fuerte : Main.java
+   2. Compilación : javac Main.java → Main.class(bytecode)
+   3. Ejecución : java Main → La JVM interpreta el bytecode y lo convierte en código máquina.
+  - Este enfoque híbrido le da a Java la ventaja de **"write once, run anywhere"** (escribe una vez, ejecuta en cualquier lugar).
+  - El código Java se puede ejecutar en cualquier sistema operativo que tenga la JVM instalada. 
+
+---
 
 ## Curiosidades
 - **Java vs JavaScript** : A diferencia de Java, JavaScript tiene una única función → crear scripts para ejecutar exploradores web. Estos scripts están en Internet. Se usan para juegos basados en explorador, animaciones de páginas web, registro de comportamiento de usuarios y anuncios emergentes, entre otras cosas. Básicamente, todo lo que se actualiza en un sitio web sin que alguien vuelva a cargar la página es probablemenente JavaScript.  
