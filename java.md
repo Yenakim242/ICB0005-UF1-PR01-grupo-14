@@ -133,6 +133,22 @@ static int suma (int a, int b) {
 ---
 
 ## Curiosidades
-- **Java vs JavaScript** : A diferencia de Java, JavaScript tiene una única función → crear scripts para ejecutar exploradores web. Estos scripts están en Internet. Se usan para juegos basados en explorador, animaciones de páginas web, registro de comportamiento de usuarios y anuncios emergentes, entre otras cosas. Básicamente, todo lo que se actualiza en un sitio web sin que alguien vuelva a cargar la página es probablemenente JavaScript.  
+- **Java vs JavaScript** : A diferencia de Java, JavaScript tiene una única función → crear scripts para ejecutar exploradores web. Estos scripts están en Internet. Se usan para juegos basados en explorador, animaciones de páginas web, registro de comportamiento de usuarios y anuncios emergentes, entre otras cosas. Básicamente, todo lo que se actualiza en un sitio web sin que alguien vuelva a cargar la página es probablemenente JavaScript.
+- **¿Por qué las empresas grandes necesitan desarrolladores de Java?**
+  1. **Escalabilidad y rendimiento : Ideal para sistemas complejos**
+     - Java está diseñado para manejar **grandes volúmenes de datos y alto tráfico** sin perder rendimiento.
+     - La JVM (Java Virtual Machine) permite que el código Java se ejecute de manera eficiente en múltiples plataformas (Windows, Linux, Mac...).
+     - Empresas como **Netflix, Amazon y Spotify** necesitan gestionar millones de usuarios concurrentes → Java permite crear arquitecturas distribuidas que escalan bien.
+  2. **Soporte para microservicios : Spring Boot Quarkus**
+     - Los microservicios son muy importantes en empresas grandes porque permiten dividir sistemas complejos en módulos independientes.
+     - **Spring Boot** : Framework para microservicios en Java → Facilita la creación y despliegue de aplicaciones distribuidas.
+     - **Quarkus** : Framework ultrarrápido para microservicios → Ideal para aplicaciones de baja latencia.
+  3. **Estabilidad y seguridad : Crítico para sistemas financieros**
+     - Java tiene una reputación de ser **estable y seguro** gracias a:
+       - **Gestión automática de memoria** (garbage collector).
+       - **Seguridad en tiempo de ejecución** (sandboxing).
+       - **Control de errores** : Manejo de excepciones fuerte y compilación estricta.
+      
+---
 
 ## IDEs y Frameworks
