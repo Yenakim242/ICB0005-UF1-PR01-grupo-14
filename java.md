@@ -16,8 +16,7 @@ Autor: Yena Kim Choi
 - **Software empresarial** : El software empresarial está pensado para servir a un grupo o una organización de gran tamaño. Incluye software como sistemas de facturación y programas de administración de cadenas de suministros. La alta escalabilidad de Java lo convierte en un lenguaje atractivo para los desarrollaodres que escriben empresarial.
 - **Dispositivos de internet de las cosas (IoT)** : Las aplicaciones de IoT están en todas partes (televisores inteligentes, coches, maquinaria pesada, instalaciones de trabajo, etc.) y Java se usa para programar muchas de ellas.
 - **Juegos** : Entre los juegos populares escritos en el lenguaje de programación Java se incluyen los originales Minecraft y RUneScape.
-
-(Ejemplos)
+  - Ejemplos
 
 
 ---
