@@ -5,7 +5,7 @@ Autor: Yena Kim Choi
 - **Java** es una lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems.
 - Jeva fue desarrollado originalmente por **James Gosling**, de Sun Microsystems (constituida en 1983 y posteriormente adquirida el 27 de enero de 2010 por la compañía Oracle), y publicado en 1995 como un componente fundamental de la plataforma Java de Sun Microsystems.
 - El código Java que se proporciona para modificar o personalizar el comportamiento de un nodo JavaCompute se almacena en un proyecto Java.
-- Java tiene un futuro prometedor. Se utiliza ampliamente en muchas industrias, incluidos los servicios financieros, el comercio minorista y la atención médica. Además, se están desarrollando tecnología más nuevas como la inteligencia artificial y la Internet de las cosas utilizando Java. Por lo tanto, es probable que la demanda de desarrolladores de Java siga creciendo en el futuro.
+- Se utiliza ampliamente en muchas industrias, incluidos los servicios financieros, el comercio minorista y la atención médica. Además, se están desarrollando tecnología más nuevas como la inteligencia artificial y la Internet de las cosas utilizando Java. Por lo tanto, es probable que la demanda de desarrolladores de Java siga creciendo en el futuro.
 
 ---
 
@@ -27,6 +27,26 @@ Autor: Yena Kim Choi
   - **Amazon**
     - La mayoría de los sistemas de backend y servicios de AWS (Amazon Web Servicios) están construidos en Java.
     - La máquina virtual de Java (JVM) permite la ejecución en diferentes sistemas operativos sin modificar el código.
+- Proyectos cancelados o fallidos
+  - **Google Web Toolkit (GWT)**
+    - Fue una plataforma creada por Google para desarrollar aplicaciones web usando Java y luego compilarlas a JavaScript.
+    - Google dejó de darle soporte debido a la complejidad de mantener la conversión entre Java y JS.
+  - **JavaFX**
+    - JavaFX fue diseñado para reemplezar Swing como la herramienta principal para crear interfaces gráficas en Java.
+    - En 2018, Oracle decidió **separarlo** de la JDK y dejó de darle soporte oficial.
+  - **OpenOffice**
+    - OpenOffice (una alternativa a Microsoft Office) estaba basado en Java.
+    - Fue abandonado debido a problemas de financiación y falta de interés por parte de la comunidad de desarrolladores.
+- **Estudios y casos de uso**
+  - **Estudio de rendimiento en microservicios**
+    - Java es el lenguaje más utilizado para construir **microservicios** debido a frameworks como **Sparing Boot** y **Quarkus**.
+    - Los estudios muestran que Java ofrece mejor rendimiento en aplicaciones de microservicios que lenguajes como Python debido a la optimización del compilador JIT (Just-In-Time).
+  - **Estudio sobre Machine Learning con Jvav**
+    - Aunque Python domina en Machine Learnihg, Java se utiliza en proyectos que requieren **rendimiento** y **concurrencia**.
+    - Librerías como **Deeplearning4j** y **Weka** permiten entrenar modelos directamente en Java.
+  - **Estudio sobre Big Data**
+    - Java es el lenguaje base de tecnologías como **Apache Hadoop** y **Apache Spark**.
+    - Gracias a la JVM, estas plataformas pueden procesar grandes volúmenes de datos de manera eficiente.
 
 ---
 
