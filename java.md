@@ -127,8 +127,8 @@ static int suma (int a, int b) {
    1. Código fuerte : Main.java
    2. Compilación : javac Main.java → Main.class(bytecode)
    3. Ejecución : java Main → La JVM interpreta el bytecode y lo convierte en código máquina.
-  - Este enfoque híbrido le da a Java la ventaja de **"write once, run anywhere"** (escribe una vez, ejecuta en cualquier lugar).
-  - El código Java se puede ejecutar en cualquier sistema operativo que tenga la JVM instalada. 
+    - Este enfoque híbrido le da a Java la ventaja de **"write once, run anywhere"** (escribe una vez, ejecuta en cualquier lugar).
+    - El código Java se puede ejecutar en cualquier sistema operativo que tenga la JVM instalada. 
 
 ---
 
