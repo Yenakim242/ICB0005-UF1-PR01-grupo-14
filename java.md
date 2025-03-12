@@ -65,23 +65,23 @@ Java es un lenguaje:
    
 - **Paradigmas en Java** : Java es un lenguaje **multiparadigama** porque permite varios estiolos de programación:
 1. **Programación Orientada a Objetos (OOP)** : Es el **paradigma principal** de Java:
-  - Basado en **clases** y **objetos**.
-  - Usa conceptos como **herencia**, **polimorfismo** y **encapsulamiento**.
-  - Ideal para proyectos grandes y escalables.
-  - Ejemplo:
-    ```java
-    class Aniaml {
-      void hacerSonido() {
-        System.out.println("Sonido de animal");
+    - Basado en **clases** y **objetos**.
+    - Usa conceptos como **herencia**, **polimorfismo** y **encapsulamiento**.
+    - Ideal para proyectos grandes y escalables.
+    - Ejemplo:
+      ```java
+      class Aniaml {
+        void hacerSonido() {
+          System.out.println("Sonido de animal");
+        }
       }
-    }
 
-    class Perro extends Animal {
-      void hacerSonido() {
-        System.out.println("Guau Guau");
+      class Perro extends Animal {
+        void hacerSonido() {
+          System.out.println("Guau Guau");
+        }
       }
-    }
-    ```
+      ```
 2. **Programación Funcional** : Desde Java 8, se agregaron funciones de orden superior (como map(), filter()) y expresiones lambda, lo que permite usar el estilo funcional:
    - Funciones son tratadas como objetos.
    - Evita estado globales y efectos secundarios.
