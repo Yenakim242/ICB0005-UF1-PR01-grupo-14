@@ -152,3 +152,69 @@ static int suma (int a, int b) {
 ---
 
 ## IDEs y Frameworks
+### **IDEs (Integrrated Development Environment)**
+Un **IDE** (Entorno de Desarrollo Integrado) es una herramienta que facilita la programación al integrar varias funciones en un solo lugar:
+- **Editor de código** : Para escribir código con resaltado de sintaxis y autocompletado.
+- **Depurador (Debugger)** : Para encontrar y corregir errores.
+- **Compilador** : Para compilar y ejecutar el código.
+- **Integración con Git** : Para controlar versiones directamente desde el IDE.
+- **Plugins/extensiones** : Para ampliar las funcionalidades (como formatear código o conectar con bases de datos).
+- **IDEs populares para Java**
+  1. **IntelliJ IDEA**
+    - **Empresa**: JetBrains
+    - **Licencia**: Licencia comercial (versión gratuita Community Edition)
+    - **Características**:
+      - Soporta refactorización automática.
+      - Completa el código automáticamente (Smart Completion).
+      - Análisis de código en tiempo real. 
+  2. **Eclipse**
+    - **Empresa**: Eclipse Foundation
+    - **Licencia**: Licencia EPL (Eclipse Public License) → Open Source
+    - **Características** :
+      - Gran soporte para Java y otros lenguajes.
+      - Muchas extensiones disponibles.
+      - Interfaz personalizable.
+  3. **NetBeans**
+    - **Empresa**: Apache Foundation
+    - **Licencia**: Licencia Apache 2.0 → Open Source
+    - **Características**:
+      - Integración directa con Maven y Git.
+      - Editor visual para diseño de interfaces gráficas (Swing).
+      - Soporta mútiples lenguajes (Java, PHP, HTML, JS). 
+  4. **VS Code** (con extensión de Java)
+     - **Empresa**: Microsoft
+     - **Licencia**: Licencia MIT → Open Source
+     - **Características**:
+       - Ligero y rápido.
+       - Soporte para Java a través de extensiones.
+       - Integración con depuradores externos y Git.
+      
+### **Frameworks (Marcos de Trabajo)**
+Un **framework** es un conjunto de herramientas, librerías y convenciones que simplifican el desarrollo de aplicaciones.
+- Proporcionana una **estructura base** para que no tengas que construir todo desde cero.
+- Facilitan la reutilización de código y la implementación de patrones de diseño.
+- Aceleran el desarrollo y mantenimiento de aplicaciones complejas.
+- **Frameworks populares para Java**
+  1. **Spring Boot**
+     - **Empresa**: Privotal (propiedad de VMware)
+     - **Licencia**: Apache 2.0 (Open Source)
+     - **Características**:
+       - Ideal para construir microservicios.
+       - Usa configuración por convención → Menos código boilerplate.
+       - Soporta inyección de dependencias y programación reactiva.
+
+  2. **Hibernate**
+     - **Empresa**: Red Hat
+     - **Licencia**: LGPL (Lesser General Public License) → Open Source
+     - **Características**:
+       - Facilita la manipulación de bases de datos mediante **ORM** (Object Relational Mapping).
+       - Convierte automáticamente objetos Java a tablas SQL.
+       - Compatible con múltiple bases de datos (MySQL, PostgreSQL, Oracle).
+
+  3. **JSF (JavaServer Faces)**
+     - **Empresa**: Oracle
+     - **Licencia**: Open Source bajo licencia Eclipse
+     - **Características**:
+       - Framework para desarrollo de interfaces gráficas (GUI) basadas en web.
+       - Soporta componentes reutilizables (como botones y formularios).
+       - Se integra fácilmente con aplicaciones empresariales.
