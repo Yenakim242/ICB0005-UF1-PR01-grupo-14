@@ -11,13 +11,22 @@ Autor: Yena Kim Choi
 
 ## Campo de aplicación
 - **Aplicaciones móviles y web**
-  - Java es uno de los lenguajes preferidos de los desarrolladores de aplicaciones móviles debido a su plataforma estable y su versatilidad. Entre las aplicaciones móviles populares codificadas en Java se incluyen **Spotify**, **Signal** y **Cash App**.
-  - Una amplia variedad de aplicaciones web se desarrollan con Java. **Twitter** y **LinkedIn** se encuentran entre las más conocidas. 
+  - Java es uno de los lenguajes preferidos de los desarrolladores de aplicaciones móviles debido a su plataforma estable y su versatilidad.
 - **Software empresarial** : El software empresarial está pensado para servir a un grupo o una organización de gran tamaño. Incluye software como sistemas de facturación y programas de administración de cadenas de suministros. La alta escalabilidad de Java lo convierte en un lenguaje atractivo para los desarrollaodres que escriben empresarial.
 - **Dispositivos de internet de las cosas (IoT)** : Las aplicaciones de IoT están en todas partes (televisores inteligentes, coches, maquinaria pesada, instalaciones de trabajo, etc.) y Java se usa para programar muchas de ellas.
 - **Juegos** : Entre los juegos populares escritos en el lenguaje de programación Java se incluyen los originales Minecraft y RUneScape.
-  - Ejemplos
-
+- Ejemplos:
+  - **Minecraft**
+    - El famoso juego fue desarrollado originalmente en Java por **Markus Persson (Notch)** en **2009**.
+    - Todavía utiliza Java como base y se ejecuta en la JVM (Java Virtual Machine).
+  - **Spotify** : El backend de la plataforma de música está construido parcialmente en Java para manejar grandes volúmenes de datos y usuarios concurrentes.
+  - **Linkedin** : LinkedIn usa Java en el backend para garantizar la escalabilidad y rendimiento con millones de usuarios activos diarios.
+  - **Netflix**
+    - Netflix usa **Spring Boot** (framework de Java) para construir y escalar su infraestructura de microservicios.
+    - Java se usa para manejar la transcodificación de vídeo y recomendaciones personalizads.
+  - **Amazon**
+    - La mayoría de los sistemas de backend y servicios de AWS (Amazon Web Servicios) están construidos en Java.
+    - La máquina virtual de Java (JVM) permite la ejecución en diferentes sistemas operativos sin modificar el código.
 
 ---
 
